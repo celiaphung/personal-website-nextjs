@@ -83,3 +83,34 @@ export const StyledButton = styled.a`
 export const Intro = styled.p`
   font-family: Open Sans, sans-serif;
 `;
+
+export const Display = styled.div`
+  display: flex;
+  width: 100%;
+`;
+
+export const ResumeBox = styled.div`
+  flex: 1;
+`;
+
+export const ListItem = styled.li`
+  margin-top: 30px;
+  list-style: none;
+`;
+// const DescriptionHead = styled.div`
+//   margin: 5px 0;
+// `;
+
+export const Role = styled.h3`
+  margin-bottom: 5px;
+`;
+export const Company = styled.p`
+  color: #b0aeae;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 17px;
+`;
+export const ListDetail = styled.p`
+  margin-top: 5px;
+  font-size: 15px;
+`;

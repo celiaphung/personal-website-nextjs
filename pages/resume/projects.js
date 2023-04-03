@@ -1,18 +1,9 @@
 import Head from "next/head";
 import Layout from "../../components/layout";
-import styled from "styled-components";
 import List from "../../components/list";
+import { Display, ResumeBox } from "../../components/styled";
 
 export default function Projects() {
-  const Display = styled.div`
-    display: flex;
-    width: 100%;
-  `;
-
-  const ResumeBox = styled.div`
-    flex: 1;
-  `;
-
   const projects = [
     {
       company: "React",
