@@ -10,8 +10,7 @@ export default function Home() {
           <title>{siteTitle}</title>
         </Head>
         <p>
-          I recently graduated in Applied Mathematics at Ryerson University.
-          Currently, I'm looking for a full-time job. I am most keen to enter the field of software dev at a company that will afford me the chance to develop my skills as a front-end software engineer.
+         Full-stack engineer at Rose Rocket with experience delivering scalable B2B SaaS features using React, TypeScript, and Postgres. Passionate about building user-centric tools, integrating LLMs, and improving system reliability through automated workflows and testing.
         </p>
         <div className={utilStyles.buttons}>
           <Link href="mailto:contact@cphung.com">
